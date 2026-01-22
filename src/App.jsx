@@ -28,24 +28,28 @@ const publications = [
     title: 'Curriculum-Informed AI™: The Next Era of AI in Education',
     source: 'Imagine Learning',
     year: '2025',
+    url: 'https://www.imaginelearning.com/pdf-viewer/?file=https://www.imaginelearning.com/wp-content/uploads/2025/04/Curriculum-Informed-AI-White-Paper.pdf',
     description: 'A framework for building AI in education grounded in high-quality curriculum and instructional integrity.',
   },
   {
     title: 'Imagine Impactful AI: Training AI on Efficacious Curricula to Empower Potential in K–12 Education',
     source: 'Imagine Learning',
     year: '2024',
+    url: 'https://www.imaginelearning.com/pdf-viewer/?file=https://www.imaginelearning.com/wp-content/uploads/2024/03/IL-AI-Insights-Implications-White-Paper.pdf#zoom=auto&pagemode=none',
     description: 'Practical guidance on using curriculum-grounded AI to support educators while addressing trust, privacy, and equity.',
   },
   {
     title: 'How the Rapid Adoption of EdTech Is Changing K–12 Education',
     source: 'EY-Parthenon',
     year: '2022',
+    url: 'https://www.ey.com/en_us/insights/education/the-rapid-adoption-of-edtech-is-changing-k-12',
     description: 'Research on post-COVID edtech use informed by educator interviews and classroom visits.',
   },
   {
     title: 'Complement Receptor C5aR1 Plays an Evolutionarily Conserved Role in Successful Cardiac Regeneration',
     source: 'Circulation (American Heart Association)',
     year: '2018',
+    url: 'http://circ.ahajournals.org/content/early/2018/03/19/CIRCULATIONAHA.117.030892',
     description: 'Cross-species study identifying a conserved immune pathway associated with successful cardiac regeneration.',
   },
 ]
@@ -128,14 +132,18 @@ function Experience() {
   )
 }
 
-function PublicationCard({ title, source, year, description }) {
+function PublicationCard({ title, source, year, url, description }) {
   return (
     <div className="publication">
       <div className="publication-meta">
         <span className="publication-source">{source}</span>
         <span className="publication-year">{year}</span>
       </div>
-      <h3 className="publication-title">{title}</h3>
+      <h3 className="publication-title">
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          {title}
+        </a>
+      </h3>
       <p className="publication-description">{description}</p>
     </div>
   )
@@ -182,7 +190,7 @@ function CTA() {
     <section className="section cta">
       <div className="cta-buttons">
         <a
-          href="https://linkedin.com/in/"
+          href="https://www.linkedin.com/in/lucascocco/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary"
@@ -207,7 +215,7 @@ function Footer() {
         <p className="copyright">&copy; 2026 Lucas Cocco Delgado</p>
         <div className="footer-links">
           <a
-            href="https://linkedin.com/in/"
+            href="https://www.linkedin.com/in/lucascocco/"
             target="_blank"
             rel="noopener noreferrer"
           >
