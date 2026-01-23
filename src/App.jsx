@@ -107,8 +107,8 @@ function Nav() {
   return (
     <nav className="nav">
       <a href="#experience" className="nav-link">Experience</a>
-      <a href="#work" className="nav-link">Work</a>
       <a href="#education" className="nav-link">Education</a>
+      <a href="#work" className="nav-link">Work</a>
       <a href="#about" className="nav-link">About</a>
       <a href="#contact" className="nav-link">Contact</a>
     </nav>
@@ -293,8 +293,8 @@ function App() {
         <Nav />
         <Bio />
         <Experience />
-        <Publications />
         <Education />
+        <Publications />
         <About />
         <CTA />
       </main>
