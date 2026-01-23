@@ -46,7 +46,8 @@ const content = {
         logo: '/tfa_logo.jpeg',
       },
       {
-        company: 'Stanford University School of Medicine',
+        company: 'Stanford University',
+        subtitle: 'School of Medicine',
         type: 'Teaching & Residential Leadership',
         description: 'Served as Head Teaching Assistant and Head Residential Advisor for summer programs at Stanford University School of Medicine. Led instructional teams and residential staff while teaching cardiothoracic surgical skills in simulation labs alongside faculty. Taught and supported over 300 high school, college, and first-year medical students, combining hands-on instruction, curriculum design, mentorship, and program operations in an intensive academic environment.',
         logo: '/Stanford-Logo.png',
@@ -171,7 +172,8 @@ const content = {
         logo: '/tfa_logo.jpeg',
       },
       {
-        company: 'Stanford University School of Medicine',
+        company: 'Stanford University',
+        subtitle: 'School of Medicine',
         type: 'Docencia y Liderazgo Residencial',
         description: 'Desempeñé el rol de Asistente de Enseñanza Principal y Asesor Residencial Principal en programas de verano en la Escuela de Medicina de la Universidad de Stanford. Lideré equipos de instrucción y personal residencial mientras enseñaba habilidades quirúrgicas cardiotorácicas en laboratorios de simulación junto con profesores. Enseñé y apoyé a más de 300 estudiantes de secundaria, universitarios y de primer año de medicina, combinando instrucción práctica, diseño curricular, mentoría y operaciones de programa en un entorno académico intensivo.',
         logo: '/Stanford-Logo.png',
@@ -366,13 +368,16 @@ function About({ t }) {
   )
 }
 
-function ExperienceCard({ company, type, description, logo }) {
+function ExperienceCard({ company, subtitle, type, description, logo }) {
   return (
     <div className="card">
       {logo && <img src={logo} alt={`${company} logo`} className="card-logo" />}
       <div className="card-content">
         <div className="card-header">
-          <h3 className="card-company">{company}</h3>
+          <div className="card-company-wrapper">
+            <h3 className="card-company">{company}</h3>
+            {subtitle && <span className="card-subtitle">{subtitle}</span>}
+          </div>
           <span className="card-type">{type}</span>
         </div>
         <p className="card-description">{description}</p>
