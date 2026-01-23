@@ -45,6 +45,12 @@ const content = {
         description: 'Taught biology and biomedical science in a Title I high school. Designed and adapted instruction aligned to state standards and NGSS practices, including rebuilding coursework for remote and hybrid learning during COVID.',
         logo: '/tfa_logo.jpeg',
       },
+      {
+        company: 'Stanford University School of Medicine',
+        type: 'Teaching & Residential Leadership',
+        description: 'Served as Head Teaching Assistant and Head Residential Advisor for summer programs at Stanford University School of Medicine. Led instructional teams and residential staff while teaching cardiothoracic surgical skills in simulation labs alongside faculty. Taught and supported over 300 high school, college, and first-year medical students, combining hands-on instruction, curriculum design, mentorship, and program operations in an intensive academic environment.',
+        logo: '/Stanford-Logo.png',
+      },
     ],
     education: [
       {
@@ -163,6 +169,12 @@ const content = {
         type: 'Profesor de Biología en Secundaria',
         description: 'Enseñé biología y ciencias biomédicas en una escuela secundaria Title I (escuela que recibe fondos federales por atender a estudiantes de bajos ingresos). Diseñé y adapté instrucción alineada con estándares estatales y prácticas NGSS, incluyendo la reconstrucción de cursos para enseñanza remota e híbrida durante la pandemia de COVID.',
         logo: '/tfa_logo.jpeg',
+      },
+      {
+        company: 'Stanford University School of Medicine',
+        type: 'Docencia y Liderazgo Residencial',
+        description: 'Desempeñé el rol de Asistente de Enseñanza Principal y Asesor Residencial Principal en programas de verano en la Escuela de Medicina de la Universidad de Stanford. Lideré equipos de instrucción y personal residencial mientras enseñaba habilidades quirúrgicas cardiotorácicas en laboratorios de simulación junto con profesores. Enseñé y apoyé a más de 300 estudiantes de secundaria, universitarios y de primer año de medicina, combinando instrucción práctica, diseño curricular, mentoría y operaciones de programa en un entorno académico intensivo.',
+        logo: '/Stanford-Logo.png',
       },
     ],
     education: [

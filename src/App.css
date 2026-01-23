@@ -306,10 +306,15 @@
   background: #7c3aed;
 }
 
+.card:nth-child(5)::before {
+  background: #8C1515;
+}
+
 .card:nth-child(1) { animation-delay: 0.2s; }
 .card:nth-child(2) { animation-delay: 0.3s; }
 .card:nth-child(3) { animation-delay: 0.4s; }
 .card:nth-child(4) { animation-delay: 0.5s; }
+.card:nth-child(5) { animation-delay: 0.6s; }
 
 .card:hover {
   transform: translateY(-3px);
@@ -363,6 +368,11 @@
 .card:nth-child(4) .card-type {
   color: #7c3aed;
   background: #ede9fe;
+}
+
+.card:nth-child(5) .card-type {
+  color: #8C1515;
+  background: #fce8e8;
 }
 
 .card-description {
