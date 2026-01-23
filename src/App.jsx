@@ -87,7 +87,7 @@ function Header() {
       <div className="header-top">
         <div className="header-content">
           <h1 className="name">Lucas Cocco Delgado, Ed.M.</h1>
-          <p className="subtitle">K–12 Education, Strategy, AI</p>
+          <p className="subtitle">Educator, Strategist, K–12 & AI</p>
         </div>
         <a
           href="https://www.linkedin.com/in/lucascocco/"
