@@ -93,8 +93,8 @@
 
 /* Headshot */
 .headshot {
-  width: 150px;
-  height: 150px;
+  width: 225px;
+  height: 225px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
   display: flex;
@@ -564,8 +564,8 @@
   }
 
   .headshot {
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
   }
 
   .headshot-initials {
