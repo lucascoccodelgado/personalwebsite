@@ -49,7 +49,7 @@ const publications = [
     title: 'Complement Receptor C5aR1 Plays an Evolutionarily Conserved Role in Successful Cardiac Regeneration',
     source: 'Circulation (American Heart Association)',
     year: '2018',
-    url: 'http://circ.ahajournals.org/content/early/2018/03/19/CIRCULATIONAHA.117.030892',
+    url: 'https://www.ahajournals.org/doi/10.1161/circulationaha.117.030801',
     description: 'Cross-species study identifying a conserved immune pathway associated with successful cardiac regeneration.',
   },
 ]
@@ -198,7 +198,7 @@ function CTA() {
           LinkedIn
         </a>
         <a
-          href="mailto:hello@example.com"
+          href="mailto:lucascoccodelgado@gmail.com"
           className="btn btn-secondary"
         >
           Email me
@@ -221,7 +221,7 @@ function Footer() {
           >
             LinkedIn
           </a>
-          <a href="mailto:hello@example.com">Email</a>
+          <a href="mailto:lucascoccodelgado@gmail.com">Email</a>
         </div>
       </div>
     </footer>
