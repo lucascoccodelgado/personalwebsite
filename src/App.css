@@ -257,9 +257,24 @@
   top: 0;
   bottom: 0;
   width: 4px;
-  background: linear-gradient(180deg, var(--color-primary) 0%, #2d6a4f 50%, #4c1d95 100%);
   opacity: 0.5;
   transition: opacity var(--transition);
+}
+
+.card:nth-child(1)::before {
+  background: #4c1d95;
+}
+
+.card:nth-child(2)::before {
+  background: #1e3a5f;
+}
+
+.card:nth-child(3)::before {
+  background: #0288d1;
+}
+
+.card:nth-child(4)::before {
+  background: #7c3aed;
 }
 
 .card:nth-child(1) { animation-delay: 0.2s; }
