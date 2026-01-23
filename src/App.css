@@ -181,6 +181,7 @@
 /* Sections */
 .section {
   margin-bottom: var(--spacing-2xl);
+  scroll-margin-top: var(--spacing-md);
 }
 
 .section-title {
@@ -451,6 +452,11 @@
   margin-bottom: 0;
 }
 
+.about-content strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
 /* Education */
 .education-list {
   display: flex;
@@ -586,6 +592,11 @@
 
 .interest-description:last-child {
   margin-bottom: 0;
+}
+
+.interest-description strong {
+  color: var(--color-text);
+  font-weight: 600;
 }
 
 .interest-link {
@@ -792,6 +803,38 @@
     padding: var(--spacing-md);
   }
 
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .card-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .education-item {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .education-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .publication-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .publication-year {
+    margin-left: 0;
+  }
+
   .footer-content {
     flex-direction: column;
     text-align: center;
@@ -802,8 +845,11 @@
 @media (prefers-reduced-motion: reduce) {
   .card:hover,
   .publication:hover,
+  .education-item:hover,
+  .interest-item:hover,
   .btn-primary:hover,
-  .btn-secondary:hover {
+  .btn-secondary:hover,
+  .linkedin-btn:hover {
     transform: none;
   }
 
@@ -812,6 +858,9 @@
   .headshot,
   .card,
   .publication,
+  .education-item,
+  .interest-item,
+  .about-content,
   .cta {
     animation: none;
     opacity: 1;
