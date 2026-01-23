@@ -110,6 +110,7 @@ function Nav() {
       <a href="#education" className="nav-link">Education</a>
       <a href="#work" className="nav-link">Work</a>
       <a href="#about" className="nav-link">About</a>
+      <a href="#interests" className="nav-link">Interests</a>
       <a href="#contact" className="nav-link">Contact</a>
     </nav>
   )
@@ -242,6 +243,40 @@ function Education() {
   )
 }
 
+function PersonalInterests() {
+  return (
+    <section className="section" id="interests">
+      <h2 className="section-title">Personal Interests</h2>
+      <div className="interests-list">
+        <div className="interest-item">
+          <h3 className="interest-title">Powerlifting</h3>
+          <p className="interest-description">
+            I'm a novice-to-intermediate competitive powerlifter and compete in USAPL meets. I train consistently and enjoy the long, unglamorous process of getting stronger over time.
+          </p>
+          <p className="interest-description">
+            My current competition personal bests (raw) are: 403 lb squat, 281 lb bench, 468 lb deadlift, 1,152 lb total.
+          </p>
+          <p className="interest-description">
+            You can find my full meet history and results on{' '}
+            <a href="https://www.openpowerlifting.org/u/lucascoccodelgado" target="_blank" rel="noopener noreferrer" className="interest-link">
+              OpenPowerlifting
+            </a>
+          </p>
+        </div>
+        <div className="interest-item">
+          <h3 className="interest-title">Dungeons & Dragons (Tabletop RPGs)</h3>
+          <p className="interest-description">
+            I'm an avid tabletop RPG game master and run multiple long-term Dungeons & Dragons campaigns in my free time. Storytelling, teaching, and facilitation are tightly intertwined in this medium, and being a GM lets me continue practicing those skills in a creative setting.
+          </p>
+          <p className="interest-description">
+            Running campaigns means designing worlds, adapting to unpredictable players, explaining complex systems clearly, and keeping groups engaged over long arcs. It's part performance, part teaching, part problem-solving, and one of the ways I stay creative outside of work.
+          </p>
+        </div>
+      </div>
+    </section>
+  )
+}
+
 function CTA() {
   return (
     <section className="section cta" id="contact">
@@ -296,6 +331,7 @@ function App() {
         <Education />
         <Publications />
         <About />
+        <PersonalInterests />
         <CTA />
       </main>
       <Footer />
