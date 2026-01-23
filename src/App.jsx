@@ -108,7 +108,7 @@ function Nav() {
     <nav className="nav">
       <a href="#experience" className="nav-link">Experience</a>
       <a href="#education" className="nav-link">Education</a>
-      <a href="#work" className="nav-link">Work</a>
+      <a href="#work" className="nav-link">Publications</a>
       <a href="#about" className="nav-link">About</a>
       <a href="#interests" className="nav-link">Interests</a>
       <a href="#contact" className="nav-link">Contact</a>
