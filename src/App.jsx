@@ -91,6 +91,19 @@ function Bio() {
       <Headshot />
       <div className="bio-content">
         <p>
+          I'm a career educator and K–12 strategist with a passion for using technology to bridge the equity gap for marginalized learners across the globe. I grew up in Cuba, where education became the pathway that allowed me to attend college in the United States. My career started in the classroom as a high school biology teacher, then moved into education strategy and corporate development, working with large public school systems and national curriculum providers. Today, I work at the intersection of education, AI, and strategy, helping scale solutions that support teachers and students at the district and system level.
+        </p>
+      </div>
+    </section>
+  )
+}
+
+function About() {
+  return (
+    <section className="section">
+      <h2 className="section-title">About</h2>
+      <div className="about-content">
+        <p>
           I started my career as a high school biology teacher through Teach For America. Teaching in a Title I school shaped how I think about education and what actually helps students and teachers in practice.
         </p>
         <p>
@@ -237,6 +250,7 @@ function App() {
         <Experience />
         <Publications />
         <Education />
+        <About />
         <CTA />
       </main>
       <Footer />
