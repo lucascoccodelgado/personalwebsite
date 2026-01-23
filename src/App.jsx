@@ -143,16 +143,16 @@ function About() {
       <h2 className="section-title">About</h2>
       <div className="about-content">
         <p>
-          I started my career as a high school biology teacher through Teach For America. Teaching in a Title I school shaped how I think about education and what actually helps students and teachers in practice.
+          I started my career as a <strong>high school biology teacher</strong> through Teach For America. Teaching in a <strong>Title I school</strong> shaped how I think about education and what actually helps students and teachers in practice.
         </p>
         <p>
-          After the classroom, I moved into education strategy consulting at EY-Parthenon. I worked with public school systems and education organizations on post-pandemic challenges, including a year embedded with a 250,000-student Title I district. My work focused on student attendance, procurement, leadership development, and system operations.
+          After the classroom, I moved into <strong>education strategy consulting at EY-Parthenon</strong>. I worked with public school systems and education organizations on post-pandemic challenges, including a year <strong>embedded with a 250,000-student Title I district</strong>. My work focused on student attendance, procurement, leadership development, and system operations.
         </p>
         <p>
-          I later joined Imagine Learning, the largest K–12 digital curriculum provider in the U.S., serving 15 million students nationwide. I worked in strategy and corporate development, partnering closely with the C-suite on M&A diligence, venture investments through Imagine Learning Ventures, and internal operational strategy. Much of my work involved evaluating classroom fit, curriculum alignment, and adoption risk for new products and AI-enabled tools.
+          I later joined <strong>Imagine Learning</strong>, the largest K–12 digital curriculum provider in the U.S., serving <strong>15 million students nationwide</strong>. I worked in <strong>strategy and corporate development</strong>, partnering closely with the C-suite on M&A diligence, venture investments through Imagine Learning Ventures, and internal operational strategy. Much of my work involved evaluating classroom fit, curriculum alignment, and adoption risk for new products and AI-enabled tools.
         </p>
         <p>
-          Today, I work on corporate strategy at Pearson, a global education company serving approximately 160 million learners worldwide. I support enterprise growth and long-term planning, including geographic expansion, education market modeling, and translating strategy into execution across business units.
+          Today, I work on <strong>corporate strategy at Pearson</strong>, a global education company serving approximately <strong>160 million learners worldwide</strong>. I support enterprise growth and long-term planning, including geographic expansion, education market modeling, and translating strategy into execution across business units.
         </p>
       </div>
     </section>
@@ -254,7 +254,7 @@ function PersonalInterests() {
             I'm a novice-to-intermediate competitive powerlifter and compete in USAPL meets. I train consistently and enjoy the long, unglamorous process of getting stronger over time.
           </p>
           <p className="interest-description">
-            My current competition personal bests (raw) are: 403 lb squat, 281 lb bench, 468 lb deadlift, 1,152 lb total.
+            My current competition personal bests (raw) are: <strong>403 lb</strong> squat, <strong>281 lb</strong> bench, <strong>468 lb</strong> deadlift, <strong>1,152 lb</strong> total.
           </p>
           <p className="interest-description">
             You can find my full meet history and results on{' '}
