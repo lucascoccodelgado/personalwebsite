@@ -25,10 +25,17 @@
   --color-accent: #e85a4f;
   --color-accent-dark: #c94a40;
   --color-accent-light: #f07167;
+  --color-accent-subtle: #fef2f1;
 
   /* Secondary - Soft navy */
   --color-secondary: #2d4059;
   --color-secondary-light: #3d5069;
+
+  /* Additional accent colors */
+  --color-purple: #7c3aed;
+  --color-purple-subtle: #f3f0ff;
+  --color-amber: #d97706;
+  --color-amber-subtle: #fef3c7;
 
   /* Utilities */
   --color-border: #e1e8ed;
