@@ -58,6 +58,7 @@ const education = [
   {
     school: 'Boston University',
     degree: 'Master of Education (Ed.M.), Curriculum & Teaching',
+    note: 'Focus on Secondary Science Education & K–12 Equity',
     logo: '/BU-logo.png',
   },
   {
