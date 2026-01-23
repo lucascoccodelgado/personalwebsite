@@ -58,11 +58,13 @@ const education = [
   {
     school: 'Boston University',
     degree: 'Master of Education (Ed.M.), Curriculum & Teaching',
+    logo: '/BU-logo.png',
   },
   {
     school: 'Harvard University',
     degree: 'Bachelor of Arts (A.B.), Human Developmental & Regenerative Biology',
     note: 'Secondary field in Government',
+    logo: '/Harvard-logo.png',
   },
 ]
 
@@ -175,12 +177,15 @@ function Publications() {
   )
 }
 
-function EducationCard({ school, degree, note }) {
+function EducationCard({ school, degree, note, logo }) {
   return (
     <div className="education-item">
-      <h3 className="education-school">{school}</h3>
-      <p className="education-degree">{degree}</p>
-      {note && <p className="education-note">{note}</p>}
+      {logo && <img src={logo} alt={`${school} logo`} className="education-logo" />}
+      <div className="education-details">
+        <h3 className="education-school">{school}</h3>
+        <p className="education-degree">{degree}</p>
+        {note && <p className="education-note">{note}</p>}
+      </div>
     </div>
   )
 }

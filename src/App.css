@@ -305,6 +305,28 @@
   padding: var(--spacing-md) var(--spacing-lg);
   animation: fadeInUp 0.5s ease-out both;
   transition: all var(--transition);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.education-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all var(--transition);
+}
+
+.education-item:hover .education-logo {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.education-details {
+  flex: 1;
 }
 
 .education-item:nth-child(1) { animation-delay: 0.2s; }
