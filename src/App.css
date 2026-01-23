@@ -184,6 +184,28 @@
   animation: fadeInUp 0.5s ease-out both;
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+}
+
+.card-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all var(--transition);
+}
+
+.card:hover .card-logo {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.card-content {
+  flex: 1;
 }
 
 .card::before {

@@ -5,21 +5,25 @@ const experiences = [
     company: 'Pearson',
     type: 'Corporate Strategy',
     description: 'Driving enterprise strategy and long-term planning at a global education company. Work includes geographic expansion, education market analysis, and supporting cross-business execution on growth initiatives across K–12, higher education, workforce, and assessments.',
+    logo: '/pearson_logo.jpeg',
   },
   {
     company: 'Imagine Learning',
     type: 'Strategy & Corporate Development',
     description: "Strategy and corporate development for the U.S.'s largest K–12 digital curriculum provider, serving 15 million students nationwide. Worked closely with the C-suite on M&A diligence, venture investments, and internal operational strategy, with a focus on classroom fit, curriculum alignment, and district adoption.",
+    logo: '/imagine_learning_logo.jpeg',
   },
   {
     company: 'EY-Parthenon',
     type: 'Education Strategy Consulting',
     description: 'Advised public school systems, nonprofits, and education organizations on growth and post-pandemic transformation. Embedded with senior district leadership to support work on attendance, procurement, leadership development, and system operations in a large Title I district.',
+    logo: '/ey_parthenon_logo.jpeg',
   },
   {
     company: 'Teach For America',
     type: 'High School Biology Teacher',
     description: 'Taught biology and biomedical science in a Title I high school. Designed and adapted instruction aligned to state standards and NGSS practices, including rebuilding coursework for remote and hybrid learning during COVID.',
+    logo: '/tfa_logo.jpeg',
   },
 ]
 
@@ -154,14 +158,17 @@ function About() {
   )
 }
 
-function ExperienceCard({ company, type, description }) {
+function ExperienceCard({ company, type, description, logo }) {
   return (
     <div className="card">
-      <div className="card-header">
-        <h3 className="card-company">{company}</h3>
-        <span className="card-type">{type}</span>
+      {logo && <img src={logo} alt={`${company} logo`} className="card-logo" />}
+      <div className="card-content">
+        <div className="card-header">
+          <h3 className="card-company">{company}</h3>
+          <span className="card-type">{type}</span>
+        </div>
+        <p className="card-description">{description}</p>
       </div>
-      <p className="card-description">{description}</p>
     </div>
   )
 }
