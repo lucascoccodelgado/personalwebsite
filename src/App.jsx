@@ -64,7 +64,7 @@ const education = [
     school: 'Harvard University',
     degree: 'Bachelor of Arts (A.B.), Human Developmental & Regenerative Biology',
     note: 'Secondary field in Government',
-    logo: '/Harvard-logo.png',
+    logo: '/Harvard-Logo.png',
   },
 ]
 
